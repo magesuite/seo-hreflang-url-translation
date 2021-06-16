@@ -1,0 +1,15 @@
+{
+    "name": "creativestyle/magesuite-seo-hreflang-url-translation",
+    "license": ["OSL-3.0", "AFL-3.0"],
+    "type": "magento2-module",
+    "require": {
+        "creativestyle/magesuite-seo-link-masking": "^1.0.0",
+        "creativestyle/magesuite-seo-hreflang": "^1.0.0"
+    },
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "MageSuite\\SeoHreflangUrlTranslation\\": ""
+        }
+    }
+}
